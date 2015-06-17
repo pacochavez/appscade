@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ADC229A1B3217D4009CB6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC22991B3217D4009CB6D0 /* AppDelegate.swift */; };
+		4ADC229C1B3217D4009CB6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC229B1B3217D4009CB6D0 /* ViewController.swift */; };
+		4ADC229F1B3217D4009CB6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC229D1B3217D4009CB6D0 /* Main.storyboard */; };
+		4ADC22A11B3217D4009CB6D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC22A01B3217D4009CB6D0 /* Images.xcassets */; };
+		4ADC22A41B3217D4009CB6D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC22A21B3217D4009CB6D0 /* LaunchScreen.xib */; };
+		4ADC22B01B3217D5009CB6D0 /* ScadeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC22AF1B3217D5009CB6D0 /* ScadeAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ADC22AA1B3217D5009CB6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADC228C1B3217D4009CB6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADC22931B3217D4009CB6D0;
+			remoteInfo = ScadeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ADC22941B3217D4009CB6D0 /* ScadeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScadeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADC22981B3217D4009CB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADC22991B3217D4009CB6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ADC229B1B3217D4009CB6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ADC229E1B3217D4009CB6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ADC22A01B3217D4009CB6D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4ADC22A31B3217D4009CB6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4ADC22A91B3217D5009CB6D0 /* ScadeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScadeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADC22AE1B3217D5009CB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADC22AF1B3217D5009CB6D0 /* ScadeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScadeAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADC22911B3217D4009CB6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC22A61B3217D5009CB6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ADC228B1B3217D4009CB6D0 = {
+			isa = PBXGroup;
+			children = (
+				4ADC22961B3217D4009CB6D0 /* ScadeApp */,
+				4ADC22AC1B3217D5009CB6D0 /* ScadeAppTests */,
+				4ADC22951B3217D4009CB6D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADC22951B3217D4009CB6D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC22941B3217D4009CB6D0 /* ScadeApp.app */,
+				4ADC22A91B3217D5009CB6D0 /* ScadeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADC22961B3217D4009CB6D0 /* ScadeApp */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC22991B3217D4009CB6D0 /* AppDelegate.swift */,
+				4ADC229B1B3217D4009CB6D0 /* ViewController.swift */,
+				4ADC229D1B3217D4009CB6D0 /* Main.storyboard */,
+				4ADC22A01B3217D4009CB6D0 /* Images.xcassets */,
+				4ADC22A21B3217D4009CB6D0 /* LaunchScreen.xib */,
+				4ADC22971B3217D4009CB6D0 /* Supporting Files */,
+			);
+			path = ScadeApp;
+			sourceTree = "<group>";
+		};
+		4ADC22971B3217D4009CB6D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC22981B3217D4009CB6D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ADC22AC1B3217D5009CB6D0 /* ScadeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC22AF1B3217D5009CB6D0 /* ScadeAppTests.swift */,
+				4ADC22AD1B3217D5009CB6D0 /* Supporting Files */,
+			);
+			path = ScadeAppTests;
+			sourceTree = "<group>";
+		};
+		4ADC22AD1B3217D5009CB6D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC22AE1B3217D5009CB6D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADC22931B3217D4009CB6D0 /* ScadeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADC22B31B3217D5009CB6D0 /* Build configuration list for PBXNativeTarget "ScadeApp" */;
+			buildPhases = (
+				4ADC22901B3217D4009CB6D0 /* Sources */,
+				4ADC22911B3217D4009CB6D0 /* Frameworks */,
+				4ADC22921B3217D4009CB6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScadeApp;
+			productName = ScadeApp;
+			productReference = 4ADC22941B3217D4009CB6D0 /* ScadeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ADC22A81B3217D5009CB6D0 /* ScadeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADC22B61B3217D5009CB6D0 /* Build configuration list for PBXNativeTarget "ScadeAppTests" */;
+			buildPhases = (
+				4ADC22A51B3217D5009CB6D0 /* Sources */,
+				4ADC22A61B3217D5009CB6D0 /* Frameworks */,
+				4ADC22A71B3217D5009CB6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADC22AB1B3217D5009CB6D0 /* PBXTargetDependency */,
+			);
+			name = ScadeAppTests;
+			productName = ScadeAppTests;
+			productReference = 4ADC22A91B3217D5009CB6D0 /* ScadeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADC228C1B3217D4009CB6D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Grupo Arhe";
+				TargetAttributes = {
+					4ADC22931B3217D4009CB6D0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4ADC22A81B3217D5009CB6D0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4ADC22931B3217D4009CB6D0;
+					};
+				};
+			};
+			buildConfigurationList = 4ADC228F1B3217D4009CB6D0 /* Build configuration list for PBXProject "ScadeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADC228B1B3217D4009CB6D0;
+			productRefGroup = 4ADC22951B3217D4009CB6D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADC22931B3217D4009CB6D0 /* ScadeApp */,
+				4ADC22A81B3217D5009CB6D0 /* ScadeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADC22921B3217D4009CB6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC229F1B3217D4009CB6D0 /* Main.storyboard in Resources */,
+				4ADC22A41B3217D4009CB6D0 /* LaunchScreen.xib in Resources */,
+				4ADC22A11B3217D4009CB6D0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC22A71B3217D5009CB6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADC22901B3217D4009CB6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC229C1B3217D4009CB6D0 /* ViewController.swift in Sources */,
+				4ADC229A1B3217D4009CB6D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC22A51B3217D5009CB6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC22B01B3217D5009CB6D0 /* ScadeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ADC22AB1B3217D5009CB6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ADC22931B3217D4009CB6D0 /* ScadeApp */;
+			targetProxy = 4ADC22AA1B3217D5009CB6D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ADC229D1B3217D4009CB6D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADC229E1B3217D4009CB6D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ADC22A21B3217D4009CB6D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADC22A31B3217D4009CB6D0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ADC22B11B3217D5009CB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ADC22B21B3217D5009CB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ADC22B41B3217D5009CB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScadeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ADC22B51B3217D5009CB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScadeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4ADC22B71B3217D5009CB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScadeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScadeApp.app/ScadeApp";
+			};
+			name = Debug;
+		};
+		4ADC22B81B3217D5009CB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScadeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScadeApp.app/ScadeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADC228F1B3217D4009CB6D0 /* Build configuration list for PBXProject "ScadeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC22B11B3217D5009CB6D0 /* Debug */,
+				4ADC22B21B3217D5009CB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADC22B31B3217D5009CB6D0 /* Build configuration list for PBXNativeTarget "ScadeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC22B41B3217D5009CB6D0 /* Debug */,
+				4ADC22B51B3217D5009CB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4ADC22B61B3217D5009CB6D0 /* Build configuration list for PBXNativeTarget "ScadeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC22B71B3217D5009CB6D0 /* Debug */,
+				4ADC22B81B3217D5009CB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ADC228C1B3217D4009CB6D0 /* Project object */;
+}
