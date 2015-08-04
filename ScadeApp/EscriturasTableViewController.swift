@@ -7,29 +7,50 @@
 //
 
 import UIKit
-
-class EscriturasTableViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    var EscriturasDetailView:EscriturasRepository!
+    class EscriturasResultViewController: UIViewController {
+        
+        @IBOutlet var tableView: UITableView!
+        var repositories = [EscriturasRepository]()
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            for result in Resultado {
+                repositories.append(EscriturasRepository(json: result))
+                
+            }
+            
+        }
+        
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+        }
+        
+        func tableView(tableView: UITableView!, numberOfRowsInSection section:Int)->Int{
+            return repositories.count
+        }
+        
+        func tableView(tableView:UITableView!,cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell
+        {
+            
+            
+            let cell = tableView.dequeueReusableCellWithIdentifier("EscriturasCell", forIndexPath: indexPath) as! EscriturasTableViewCell
+            let data = repositories[indexPath.row]
+            cell.configEscritura(data)
+            
+            
+            return cell
+        }
+        
+        func tableView(tableView:UITableView!,didSelectRowAtIndexPath indexPath:NSIndexPath!){
+            println("you select row #\(indexPath.row)")
+            EscriturasDetailView = repositories[indexPath.row]
+            self.performSegueWithIdentifier("EscriturasDetail", sender: self)
+        }
+        
+        @IBAction func BackFiltro(sender: AnyObject) {
+            Resultado = [NSDictionary]()
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}

@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A3299C81B38DC12002BE1AC /* CuadrosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3299C71B38DC12002BE1AC /* CuadrosTableViewController.swift */; };
+		4A3299CA1B38DC6A002BE1AC /* CuadrosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3299C91B38DC6A002BE1AC /* CuadrosRepository.swift */; };
+		4A3299FA1B398798002BE1AC /* CuadrosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3299F91B398798002BE1AC /* CuadrosTableViewCell.swift */; };
+		4A91069B1B3CB44E0011BD1F /* CuadrosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91069A1B3CB44E0011BD1F /* CuadrosDetailViewController.swift */; };
+		4A95E6091B38658600477F55 /* ContratosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E6081B38658600477F55 /* ContratosTableViewController.swift */; };
+		4A95E60B1B3866B600477F55 /* ContratosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E60A1B3866B600477F55 /* ContratosRepository.swift */; };
+		4A95E60D1B38686000477F55 /* ContratosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E60C1B38686000477F55 /* ContratosTableViewCell.swift */; };
+		4A95E60F1B3871E300477F55 /* ContratosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E60E1B3871E300477F55 /* ContratosDetailViewController.swift */; };
+		4A95E6111B38909100477F55 /* EscriturasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E6101B38909100477F55 /* EscriturasTableViewController.swift */; };
+		4A95E6131B3892BB00477F55 /* EscriturasRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E6121B3892BB00477F55 /* EscriturasRepository.swift */; };
+		4A95E6151B38938300477F55 /* EscriturasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E6141B38938300477F55 /* EscriturasTableViewCell.swift */; };
+		4A95E6171B38AB0D00477F55 /* EscriturasDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A95E6161B38AB0D00477F55 /* EscriturasDetailViewController.swift */; };
 		4ADC229A1B3217D4009CB6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC22991B3217D4009CB6D0 /* AppDelegate.swift */; };
-		4ADC229C1B3217D4009CB6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC229B1B3217D4009CB6D0 /* ViewController.swift */; };
 		4ADC229F1B3217D4009CB6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC229D1B3217D4009CB6D0 /* Main.storyboard */; };
 		4ADC22A11B3217D4009CB6D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC22A01B3217D4009CB6D0 /* Images.xcassets */; };
 		4ADC22A41B3217D4009CB6D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC22A21B3217D4009CB6D0 /* LaunchScreen.xib */; };
 		4ADC22B01B3217D5009CB6D0 /* ScadeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC22AF1B3217D5009CB6D0 /* ScadeAppTests.swift */; };
+		4AEB005D1B33735400709095 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB00591B33735400709095 /* btn_back.png */; };
+		4AEB005E1B33735400709095 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB005A1B33735400709095 /* download.png */; };
+		4AEB005F1B33735400709095 /* logo-arhe-blanco.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB005B1B33735400709095 /* logo-arhe-blanco.png */; };
+		4AEB00601B33735400709095 /* nosotros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB005C1B33735400709095 /* nosotros.jpg */; };
+		4AEB00621B337E8C00709095 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB00611B337E8C00709095 /* FilterViewController.swift */; };
+		4AEB00641B337EB900709095 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB00631B337EB900709095 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +43,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A3299C71B38DC12002BE1AC /* CuadrosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuadrosTableViewController.swift; sourceTree = "<group>"; };
+		4A3299C91B38DC6A002BE1AC /* CuadrosRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuadrosRepository.swift; sourceTree = "<group>"; };
+		4A3299F91B398798002BE1AC /* CuadrosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuadrosTableViewCell.swift; sourceTree = "<group>"; };
+		4A91069A1B3CB44E0011BD1F /* CuadrosDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuadrosDetailViewController.swift; sourceTree = "<group>"; };
+		4A95E6081B38658600477F55 /* ContratosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContratosTableViewController.swift; sourceTree = "<group>"; };
+		4A95E60A1B3866B600477F55 /* ContratosRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContratosRepository.swift; sourceTree = "<group>"; };
+		4A95E60C1B38686000477F55 /* ContratosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContratosTableViewCell.swift; sourceTree = "<group>"; };
+		4A95E60E1B3871E300477F55 /* ContratosDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContratosDetailViewController.swift; sourceTree = "<group>"; };
+		4A95E6101B38909100477F55 /* EscriturasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscriturasTableViewController.swift; sourceTree = "<group>"; };
+		4A95E6121B3892BB00477F55 /* EscriturasRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscriturasRepository.swift; sourceTree = "<group>"; };
+		4A95E6141B38938300477F55 /* EscriturasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscriturasTableViewCell.swift; sourceTree = "<group>"; };
+		4A95E6161B38AB0D00477F55 /* EscriturasDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscriturasDetailViewController.swift; sourceTree = "<group>"; };
 		4ADC22941B3217D4009CB6D0 /* ScadeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScadeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADC22981B3217D4009CB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADC22991B3217D4009CB6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ADC229B1B3217D4009CB6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ADC229E1B3217D4009CB6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ADC22A01B3217D4009CB6D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4ADC22A31B3217D4009CB6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4ADC22A91B3217D5009CB6D0 /* ScadeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScadeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADC22AE1B3217D5009CB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADC22AF1B3217D5009CB6D0 /* ScadeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScadeAppTests.swift; sourceTree = "<group>"; };
+		4AEB00591B33735400709095 /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
+		4AEB005A1B33735400709095 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		4AEB005B1B33735400709095 /* logo-arhe-blanco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-arhe-blanco.png"; sourceTree = "<group>"; };
+		4AEB005C1B33735400709095 /* nosotros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nosotros.jpg; sourceTree = "<group>"; };
+		4AEB00611B337E8C00709095 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		4AEB00631B337EB900709095 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				4ADC22991B3217D4009CB6D0 /* AppDelegate.swift */,
-				4ADC229B1B3217D4009CB6D0 /* ViewController.swift */,
+				4AEB00561B3370CB00709095 /* Cuadros */,
+				4AEB00541B3370AB00709095 /* Escrituras */,
+				4AEB00551B3370BA00709095 /* Contratos */,
+				4AEB00581B33730500709095 /* Main */,
+				4AEB00531B33709400709095 /* img */,
 				4ADC229D1B3217D4009CB6D0 /* Main.storyboard */,
 				4ADC22A01B3217D4009CB6D0 /* Images.xcassets */,
 				4ADC22A21B3217D4009CB6D0 /* LaunchScreen.xib */,
@@ -110,6 +148,59 @@
 				4ADC22AE1B3217D5009CB6D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AEB00531B33709400709095 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB00591B33735400709095 /* btn_back.png */,
+				4AEB005A1B33735400709095 /* download.png */,
+				4AEB005B1B33735400709095 /* logo-arhe-blanco.png */,
+				4AEB005C1B33735400709095 /* nosotros.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		4AEB00541B3370AB00709095 /* Escrituras */ = {
+			isa = PBXGroup;
+			children = (
+				4A95E6101B38909100477F55 /* EscriturasTableViewController.swift */,
+				4A95E6121B3892BB00477F55 /* EscriturasRepository.swift */,
+				4A95E6141B38938300477F55 /* EscriturasTableViewCell.swift */,
+				4A95E6161B38AB0D00477F55 /* EscriturasDetailViewController.swift */,
+			);
+			name = Escrituras;
+			sourceTree = "<group>";
+		};
+		4AEB00551B3370BA00709095 /* Contratos */ = {
+			isa = PBXGroup;
+			children = (
+				4A95E6081B38658600477F55 /* ContratosTableViewController.swift */,
+				4A95E60A1B3866B600477F55 /* ContratosRepository.swift */,
+				4A95E60C1B38686000477F55 /* ContratosTableViewCell.swift */,
+				4A95E60E1B3871E300477F55 /* ContratosDetailViewController.swift */,
+			);
+			name = Contratos;
+			sourceTree = "<group>";
+		};
+		4AEB00561B3370CB00709095 /* Cuadros */ = {
+			isa = PBXGroup;
+			children = (
+				4A3299C71B38DC12002BE1AC /* CuadrosTableViewController.swift */,
+				4A3299C91B38DC6A002BE1AC /* CuadrosRepository.swift */,
+				4A3299F91B398798002BE1AC /* CuadrosTableViewCell.swift */,
+				4A91069A1B3CB44E0011BD1F /* CuadrosDetailViewController.swift */,
+			);
+			name = Cuadros;
+			sourceTree = "<group>";
+		};
+		4AEB00581B33730500709095 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB00611B337E8C00709095 /* FilterViewController.swift */,
+				4AEB00631B337EB900709095 /* LoginViewController.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +284,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ADC229F1B3217D4009CB6D0 /* Main.storyboard in Resources */,
+				4AEB005E1B33735400709095 /* download.png in Resources */,
 				4ADC22A41B3217D4009CB6D0 /* LaunchScreen.xib in Resources */,
 				4ADC22A11B3217D4009CB6D0 /* Images.xcassets in Resources */,
+				4AEB005D1B33735400709095 /* btn_back.png in Resources */,
+				4AEB00601B33735400709095 /* nosotros.jpg in Resources */,
+				4AEB005F1B33735400709095 /* logo-arhe-blanco.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +307,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADC229C1B3217D4009CB6D0 /* ViewController.swift in Sources */,
+				4A95E6131B3892BB00477F55 /* EscriturasRepository.swift in Sources */,
+				4A3299FA1B398798002BE1AC /* CuadrosTableViewCell.swift in Sources */,
+				4A95E6151B38938300477F55 /* EscriturasTableViewCell.swift in Sources */,
+				4A95E6091B38658600477F55 /* ContratosTableViewController.swift in Sources */,
+				4A95E60B1B3866B600477F55 /* ContratosRepository.swift in Sources */,
+				4A95E60D1B38686000477F55 /* ContratosTableViewCell.swift in Sources */,
+				4AEB00641B337EB900709095 /* LoginViewController.swift in Sources */,
+				4A3299C81B38DC12002BE1AC /* CuadrosTableViewController.swift in Sources */,
+				4AEB00621B337E8C00709095 /* FilterViewController.swift in Sources */,
+				4A91069B1B3CB44E0011BD1F /* CuadrosDetailViewController.swift in Sources */,
+				4A95E60F1B3871E300477F55 /* ContratosDetailViewController.swift in Sources */,
+				4A95E6111B38909100477F55 /* EscriturasTableViewController.swift in Sources */,
+				4A95E6171B38AB0D00477F55 /* EscriturasDetailViewController.swift in Sources */,
 				4ADC229A1B3217D4009CB6D0 /* AppDelegate.swift in Sources */,
+				4A3299CA1B38DC6A002BE1AC /* CuadrosRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +517,7 @@
 				4ADC22B51B3217D5009CB6D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ADC22B61B3217D5009CB6D0 /* Build configuration list for PBXNativeTarget "ScadeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +526,7 @@
 				4ADC22B81B3217D5009CB6D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
