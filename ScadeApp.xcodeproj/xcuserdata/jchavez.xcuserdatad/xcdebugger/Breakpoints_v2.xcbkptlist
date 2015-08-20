@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "345"
-            endingLineNumber = "345"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
             landmarkName = "PostString(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "472"
-            endingLineNumber = "472"
+            startingLineNumber = "471"
+            endingLineNumber = "471"
             landmarkName = "Jsondata(_:typeData:title:textField:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "484"
-            endingLineNumber = "484"
+            startingLineNumber = "483"
+            endingLineNumber = "483"
             landmarkName = "Jsondata(_:typeData:title:textField:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "534"
-            endingLineNumber = "534"
+            startingLineNumber = "533"
+            endingLineNumber = "533"
             landmarkName = "call(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "285"
-            endingLineNumber = "285"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
             landmarkName = "clearVars(_:IdEmpresa:TipoEmpresa:Empresa:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -138,23 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "492"
-            endingLineNumber = "492"
-            landmarkName = "Jsondata(_:typeData:title:textField:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "491"
@@ -170,11 +154,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "506"
-            endingLineNumber = "506"
+            startingLineNumber = "490"
+            endingLineNumber = "490"
+            landmarkName = "Jsondata(_:typeData:title:textField:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/FilterViewController.swift"
+            timestampString = "461533930.803802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "505"
+            endingLineNumber = "505"
             landmarkName = "Jsondata(_:typeData:title:textField:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/CuadrosTableViewController.swift"
-            timestampString = "456768206.167909"
+            timestampString = "461697125.852605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -243,11 +243,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "509"
-            endingLineNumber = "509"
+            startingLineNumber = "508"
+            endingLineNumber = "508"
             landmarkName = "Jsondata(_:typeData:title:textField:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -275,11 +275,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/CuadrosTableViewController.swift"
-            timestampString = "456877767.138571"
+            timestampString = "461697125.852605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "tableView(_:heightForHeaderInSection:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -291,11 +291,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/CuadrosTableViewController.swift"
-            timestampString = "456942199.743779"
+            timestampString = "461697125.852605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "CuadrosTableViewController"
             landmarkType = "3">
             <Locations>
@@ -307,7 +307,7 @@
                   moduleName = "ScadeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.201437"
+                  timestampString = "461692062.818673"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -322,7 +322,7 @@
                   moduleName = "ScadeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.201599"
+                  timestampString = "461692062.818963"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -337,7 +337,7 @@
                   moduleName = "ScadeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.201746"
+                  timestampString = "461692062.819145"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -352,12 +352,12 @@
                   moduleName = "ScadeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.201896"
+                  timestampString = "461692062.819295"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "44">
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "180">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -367,105 +367,12 @@
                   moduleName = "ScadeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.202048"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScadeApp/CuadrosTableViewController.swift"
-            timestampString = "456942200.746874"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "CuadrosTableViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScadeApp.CuadrosTableViewController.CuadrosItems.getter : ObjectiveC.NSArray"
-                  moduleName = "ScadeApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.203952"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScadeApp.CuadrosTableViewController.CuadrosItems.setter : ObjectiveC.NSArray"
-                  moduleName = "ScadeApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.204124"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScadeApp.CuadrosTableViewController.CuadrosItems.materializeForSet : ObjectiveC.NSArray"
-                  moduleName = "ScadeApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.204265"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScadeApp.CuadrosTableViewController.init (ScadeApp.CuadrosTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; ScadeApp.CuadrosTableViewController"
-                  moduleName = "ScadeApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.204433"
+                  timestampString = "461692062.819445"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
                   endingLineNumber = "14"
-                  offsetFromSymbolStart = "351">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScadeApp.CuadrosTableViewController.init (ScadeApp.CuadrosTableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; ScadeApp.CuadrosTableViewController"
-                  moduleName = "ScadeApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
-                  timestampString = "460412872.204574"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "260">
+                  offsetFromSymbolStart = "107">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -477,11 +384,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/FilterViewController.swift"
-            timestampString = "457042929.634189"
+            timestampString = "461533930.803802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "283"
-            endingLineNumber = "283"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
             landmarkName = "clearVars(_:IdEmpresa:TipoEmpresa:Empresa:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -493,11 +400,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/CuadrosTableViewController.swift"
-            timestampString = "457050023.468021"
+            timestampString = "461697125.852605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -530,22 +437,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
             endingLineNumber = "52"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScadeApp/CuadrosDetailViewController.swift"
-            timestampString = "457116669.549674"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -621,7 +512,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/ContratosDetailViewController.swift"
-            timestampString = "460324447.869655"
+            timestampString = "460481224.437554"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
@@ -637,11 +528,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/ContratosDetailViewController.swift"
-            timestampString = "460324490.760493"
+            timestampString = "460481224.437554"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "doElaborateHTTP(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -653,12 +544,406 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScadeApp/ContratosDetailViewController.swift"
-            timestampString = "460328377.913258"
+            timestampString = "460481224.437554"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "doElaborateHTTP(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "CuadrosTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.CuadrosItems.getter : ObjectiveC.NSArray"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.826207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.CuadrosItems.setter : ObjectiveC.NSArray"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.826392"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.CuadrosItems.materializeForSet : ObjectiveC.NSArray"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.826547"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.init (ScadeApp.CuadrosTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; ScadeApp.CuadrosTableViewController"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.826725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "446">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.init (ScadeApp.CuadrosTableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; ScadeApp.CuadrosTableViewController"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.826876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "CuadrosTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.tableView.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.828823"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.tableView.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.829121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.tableView.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.829458"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.init (ScadeApp.CuadrosTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; ScadeApp.CuadrosTableViewController"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.829704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "723">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScadeApp.CuadrosTableViewController.init (ScadeApp.CuadrosTableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; ScadeApp.CuadrosTableViewController"
+                  moduleName = "ScadeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jchavez/Documents/projects/ScadeApp/ScadeApp/CuadrosTableViewController.swift"
+                  timestampString = "461692062.829862"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "603">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewCell.swift"
+            timestampString = "461624758.323382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "configCuadros(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewCell.swift"
+            timestampString = "461624758.323382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "configCuadros(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewCell.swift"
+            timestampString = "461607782.987038"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "configCuadros(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewCell.swift"
+            timestampString = "461624758.323382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "configCuadros(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewCell.swift"
+            timestampString = "461624758.323382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "configCuadros(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewCell.swift"
+            timestampString = "461624758.323382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "configCuadros(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewCell.swift"
+            timestampString = "461624758.323382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "configCuadros(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScadeApp/CuadrosTableViewController.swift"
+            timestampString = "461697125.852605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

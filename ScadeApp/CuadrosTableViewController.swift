@@ -1,4 +1,4 @@
-//
+    //
 //  CuadrosTableViewController.swift
 //  ScadeApp
 //
@@ -8,15 +8,27 @@
 
 import UIKit
 
-var CuadrosDetailView:NSArray!
+var CuadrosNumDetailSection:Int!
+var AllItems = [[CuadrosRepository]()]
 class CuadrosTableViewController: UIViewController {
+
     var CuadrosSections = (ResultadoAcc["IndexEscritura"] as? NSArray)!
     var CuadrosItems = (ResultadoAcc["escritura"] as? NSArray)!
+   
     @IBOutlet var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let secctionsCount = self.CuadrosItems.count - 1
+        for index in 0...secctionsCount {
+           let itemsCount = self.CuadrosItems[index].count - 1
+            AllItems.insert( [] , atIndex: index)
+            for items in 0...itemsCount{
+                print("index: \(index)--- item :\(items) \n")
+               var item = CuadrosItems[index][items] as! NSDictionary!
+               AllItems[index].insert(CuadrosRepository(json: item!), atIndex: items)
+            }
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,8 +46,8 @@ class CuadrosTableViewController: UIViewController {
     func tableView(tableView:UITableView!,cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCellWithIdentifier("CuadrosCell", forIndexPath: indexPath) as! CuadrosTableViewCell
-        let data = CuadrosItems[indexPath.section][indexPath.row] as? NSDictionary
-        cell.configCuadros(data!)
+        let data = AllItems[indexPath.section][indexPath.row]
+        cell.configCuadros(data)
         return cell
     }
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -46,7 +58,7 @@ class CuadrosTableViewController: UIViewController {
         label.textColor = UIColorFromRGB(0x007aff)
         label.numberOfLines = 0
         label.font = UIFont.systemFontOfSize(13.0)
-        label.text = "Escritura: \(CuadrosSections[section][0]) Volumen \(CuadrosSections[section][1])"
+        label.text = " Escritura: \(CuadrosSections[section][0]) Volumen \(CuadrosSections[section][1])"
         return label
     }
     func UIColorFromRGB(rgbValue: UInt) -> UIColor {
@@ -67,8 +79,7 @@ class CuadrosTableViewController: UIViewController {
     
     func tableView(tableView:UITableView!,didSelectRowAtIndexPath indexPath:NSIndexPath!){
         println("you select row #\(indexPath.section)")
-        CuadrosDetailView = CuadrosItems[indexPath.section] as! NSArray
-        print(CuadrosDetailView)
+        CuadrosNumDetailSection = indexPath.section
        self.performSegueWithIdentifier("CuadrosDetail", sender: self)
     }
   

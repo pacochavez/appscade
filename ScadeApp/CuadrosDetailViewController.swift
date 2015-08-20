@@ -49,19 +49,19 @@ class CuadrosDetailViewController: UIViewController,NSURLSessionDownloadDelegate
     
     override func viewDidLoad() {
         progressBar.setProgress(0.0, animated: true)  //set progressBar to 0 at start
-        let RS:String? = CuadrosDetailView[0]["razon_social"] as? String
-        let TIPO:String? = CuadrosDetailView[0]["tipo"] as? String
-        RazonSocial.text = RS! + TIPO!
-        Rfc.text = CuadrosDetailView[0]["rfc"] as? String
-        let textos:NSDictionary = ["Nombre":"texto1","apellido":"texto2","color":"texto3","mes":"texto4"]
-        let countTextos = textos.count
+        let RS = AllItems[CuadrosNumDetailSection][0].razon_social!
+        let TIPO = AllItems[CuadrosNumDetailSection][0].tipo
+        RazonSocial.text = RS + TIPO!
+        Rfc.text = AllItems[CuadrosNumDetailSection][0].rfc
+
+        let countTextos:Int = 3
         let width:CGFloat = self.view.frame.width/CGFloat(countTextos)
         let margin:CGFloat = 4
         let widthMargin:CGFloat = (width - margin)
         let point:CGFloat = (width)/2
-        var cuadroacc = CuadrosDetailView[0]["cuadroacc"] as? String
-        
-       /* for row in 0...CuadrosDetailView.count{
+        var cuadroacc = AllItems[CuadrosNumDetailSection][0].cuadroacc
+        let Items_ = AllItems[CuadrosNumDetailSection].count - 1
+       for row in 0...Items_{
             for num in 0...countTextos {
                 var n:CGFloat = CGFloat(num)
                 var Xpoint:CGFloat = point+(n * width)
@@ -77,10 +77,10 @@ class CuadrosDetailViewController: UIViewController,NSURLSessionDownloadDelegate
                         label.text = ""
                     }
                     if num == 2{
-                        label.text = CuadrosDetailView[row]["acciones"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].acciones
                     }
                     if num == 3{
-                        label.text = CuadrosDetailView[row]["valores"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores
                     }
                 }else if cuadroacc == "mostrarCuadroAcc2" {
                     if num == 0{
@@ -90,10 +90,10 @@ class CuadrosDetailViewController: UIViewController,NSURLSessionDownloadDelegate
                         label.text = ""
                     }
                     if num == 2{
-                        label.text = CuadrosDetailView[row]["acciones"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].acciones
                     }
                     if num == 3{
-                        label.text = CuadrosDetailView[row]["valores"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores
                     }
                     
                 }else if cuadroacc == "mostrarCuadroAcc3" {
@@ -101,27 +101,27 @@ class CuadrosDetailViewController: UIViewController,NSURLSessionDownloadDelegate
                         label.text = ""
                     }
                     if num == 1{
-                        label.text = CuadrosDetailView[row]["acciones"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].acciones
                     }
                     if num == 2{
-                        label.text = CuadrosDetailView[row]["valores"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores
                     }
                     if num == 3{
-                        label.text = CuadrosDetailView[row]["valores_var"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores_var
                     }
                     
                 }else if cuadroacc == "mostrarCuadroAcc4" {
                     if num == 0{
-                        label.text = CuadrosDetailView[row]["serieA"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].serieA
                     }
                     if num == 1{
-                        label.text = CuadrosDetailView[row]["serieB"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].serieB
                     }
                     if num == 2{
-                        label.text = CuadrosDetailView[row]["valores"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores
                     }
                     if num == 3{
-                        label.text = CuadrosDetailView[row]["valores_var"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores_var
                     }
                     
                 }else if cuadroacc == "mostrarCuadroAcc5" {
@@ -141,27 +141,25 @@ class CuadrosDetailViewController: UIViewController,NSURLSessionDownloadDelegate
                     
                 }else if cuadroacc == "mostrarCuadroAcc6" {
                     if num == 0{
-                        label.text = CuadrosDetailView[row]["serieA"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].serieA
                     }
                     if num == 1{
-                        label.text = CuadrosDetailView[row]["serieB"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].serieB
                     }
                     if num == 2{
-                        label.text = CuadrosDetailView[row]["valores"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores
                     }
                     if num == 3{
-                        label.text = CuadrosDetailView[row]["valores_var"] as? String
+                        label.text = AllItems[CuadrosNumDetailSection][row].valores_var
                     }
                 }
                 
                 self.view.addSubview(label)
             }
         }
-    */
 
     }
     @IBAction func backLista(sender: AnyObject) {
-        CuadrosDetailView = nil
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
@@ -173,7 +171,7 @@ class CuadrosDetailViewController: UIViewController,NSURLSessionDownloadDelegate
             return
         }
         
-        let s = "http://scade.mx/app/scade/php/download.php?f=documentos/UPC/"+ContratosDetailView.ruta_empresa!+ContratosDetailView.ruta_archivo!
+        let s = "http://scade.mx/app/scade/php/documentos/UPC/"+ContratosDetailView.ruta_empresa!+ContratosDetailView.ruta_archivo!
         let url = NSURL(string:s)!
         let req = NSMutableURLRequest(URL:url)
         let task = self.session.downloadTaskWithRequest(req)
@@ -202,7 +200,6 @@ class CuadrosDetailViewController: UIViewController,NSURLSessionDownloadDelegate
     // this is the only required NSURLSessionDownloadDelegate method
     
     func URLSession(session: NSURLSession, downloadTask: NSURLSessionDownloadTask, didFinishDownloadingToURL location: NSURL) {
-        
     }
     
 }

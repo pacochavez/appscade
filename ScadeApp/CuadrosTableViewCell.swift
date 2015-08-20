@@ -24,9 +24,9 @@ class CuadrosTableViewCell: UITableViewCell {
  
  
     
-    func configCuadros(data:NSDictionary){
+    func configCuadros(data:CuadrosRepository){
 
-        var cuadroacc = data["cuadroacc"] as? String
+        var cuadroacc = data.cuadroacc
         if cuadroacc == "mostrarCuadroAcc1" {
             TitleColumna1.text = ""
             TitleColumna2.text = ""
@@ -35,8 +35,8 @@ class CuadrosTableViewCell: UITableViewCell {
 
             Columna1.text = ""
             Columna2.text = ""
-            Columna3.text = data["acciones"] as? String
-            Columna4.text = data["valores"] as? String
+            Columna3.text = data.acciones
+            Columna4.text = data.valores
             
             
         }else if cuadroacc == "mostrarCuadroAcc2" {
@@ -46,8 +46,8 @@ class CuadrosTableViewCell: UITableViewCell {
             TitleColumna4.text = "valor fijo"
             Columna1.text = ""
             Columna2.text = ""
-            Columna3.text = data["acciones"] as? String
-            Columna4.text = data["valores"] as? String
+            Columna3.text = data.acciones
+            Columna4.text = data.valores
             
         }else if cuadroacc == "mostrarCuadroAcc3" {
             TitleColumna1.text = ""
@@ -55,19 +55,19 @@ class CuadrosTableViewCell: UITableViewCell {
             TitleColumna3.text = "valor fijo"
             TitleColumna4.text = "valor variable"
             Columna1.text = ""
-            Columna2.text = data["acciones"] as? String
-            Columna3.text = data["valores"] as? String
-            Columna4.text = data["valores_var"] as? String
+            Columna2.text = data.acciones
+            Columna3.text = data.valores
+            Columna4.text = data.valores_var
             
         }else if cuadroacc == "mostrarCuadroAcc4" {
             TitleColumna1.text = "Serie A"
             TitleColumna2.text = "Serie B"
             TitleColumna3.text = "valor fijo"
             TitleColumna4.text = "valor variable"
-            Columna1.text = data["serieA"] as? String
-            Columna2.text = data["serieB"] as? String
-            Columna3.text = data["valores"] as? String
-            Columna4.text = data["valores_var"] as? String
+            Columna1.text = data.serieA
+            Columna2.text = data.serieB
+            Columna3.text = data.valores
+            Columna4.text = data.valores_var
             
         }else if cuadroacc == "mostrarCuadroAcc5" {
             TitleColumna1.text = ""
@@ -84,10 +84,10 @@ class CuadrosTableViewCell: UITableViewCell {
             TitleColumna2.text = "Certificado B"
             TitleColumna3.text = "Fijo"
             TitleColumna4.text = "Variable"
-            Columna1.text = data["serieA"] as? String
-            Columna2.text = data["serieB"] as? String
-            Columna3.text = data["valores"] as? String
-            Columna4.text = data["valores_var"] as? String
+            Columna1.text = data.serieA
+            Columna2.text = data.serieB
+            Columna3.text = data.valores
+            Columna4.text = data.valores_var
             
         }
 
@@ -105,9 +105,12 @@ class CuadrosTableViewCell: UITableViewCell {
 
 
         
-        var apepaterno = data["apepaterno"] as? String
-        var apematerno = data["apematerno"] as? String
-        var nombre = data["nombre"] as? String
+        var apepaterno = data.apepaterno
+        var apematerno = data.apematerno
+        var nombre = data.nombre
+        if apepaterno == nil{
+            apepaterno = ""
+        }
         if apematerno == nil{
             apematerno = ""
         }

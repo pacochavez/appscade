@@ -73,7 +73,8 @@ class ContratosDetailViewController: UIViewController,NSURLSessionDownloadDelega
             return
         }
         
-        let s = "http://scade.mx/app/scade/php/download.php?f=documentos/UPC/"+ContratosDetailView.ruta_empresa!+ContratosDetailView.ruta_archivo!
+        //let s = "http://scade.mx/app/scade/php/download.php?f=documentos/upc/"+ContratosDetailView.ruta_empresa!+ContratosDetailView.ruta_archivo!
+        let s = "http://scade.mx/app/scade/php/documentos/UPC/AFGARHE/Contrato20150206133003156.pdf"
         let url = NSURL(string:s)!
         let req = NSMutableURLRequest(URL:url)
         let task = self.session.downloadTaskWithRequest(req)

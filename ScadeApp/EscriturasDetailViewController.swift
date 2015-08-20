@@ -66,7 +66,7 @@ class EscriturasDetailViewController: UIViewController,NSURLSessionDownloadDeleg
             return
         }
         
-        let s = "http://scade.mx/app/scade/php/download.php?f=documentos/UPC/"+EscriturasDetailView.ruta_empresa!+EscriturasDetailView.ruta_archivo!
+        let s = "http://scade.mx/app/scade/documentos/UPC/"+EscriturasDetailView.ruta_empresa!+EscriturasDetailView.ruta_archivo!
         let url = NSURL(string:s)!
         let req = NSMutableURLRequest(URL:url)
         let task = self.session.downloadTaskWithRequest(req)
